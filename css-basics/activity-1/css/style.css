@@ -14,3 +14,17 @@
     - Set the margin-top to 45% of the vertical height
 */
 
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    text-Align: center;
+}
+
+div {
+    border:1px solid blue;
+    display: inline-block;/*takes up specific space*/
+    width:25%;
+    text-align: center; 
+    padding: 20px; /* puts gap between word and border*/
+    margin-top:45vh;
+}
